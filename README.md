@@ -19,8 +19,8 @@ The main API documentaion is [vipps-invoice-api.md](https://github.com/vippsas/v
 
 Invoice _Service_ Providers: Actors who submit invoices. Either for themselves or on behalf of their clients. 
 
-* https://vippsas.github.io/vipps-invoice-api/ipp.html
-* https://vippsas.github.io/vipps-invoice-api/redoc-ipp.html
+* https://vippsas.github.io/vipps-invoice-api/isp.html
+* https://vippsas.github.io/vipps-invoice-api/redoc-isp.html
 
 ## IPP: Invoice Payment Provider
 
