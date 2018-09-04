@@ -28,3 +28,10 @@ Invoice _Payment_ Providers: Actors who handle invoices for the invoice recipien
 
 * https://vippsas.github.io/vipps-invoice-api/isp.html
 * https://vippsas.github.io/vipps-invoice-api/redoc-isp.html
+
+# Building JSON files
+
+After updating the yaml files you can convert them to JSON by running the yaml2json.py script. If you do not have the pyyaml dependency installed you can either do this with a package manager or
+install it using pip
+
+    pip install -r requirements.txt # Will install all requirements
