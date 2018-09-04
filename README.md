@@ -35,3 +35,54 @@ After updating the yaml files you can convert them to JSON by running the yaml2j
 install it using pip
 
     pip install -r requirements.txt # Will install all requirements
+
+# Changelog
+
+## 0.3.3
+
+* Moved verbose documentation out of swagger files
+
+## 0.3.2
+
+* Improved `HTTP 409` description for `PUT:/invoice/{invoiceId}`
+
+## 0.3.1
+
+* Added `/jwk` (again).
+
+## 0.3.0
+
+* Updated authentication info for APIM (manual "merge").
+
+## 0.2.28
+
+* Fix: Replaced `new` with `created`, also for endpoints not implemented yet.
+
+## 0.2.27
+
+* Fix: Replaced `new` with `created`.
+
+## 0.2.26
+
+* Updated information about test users.
+
+## 0.2.25
+
+* Replaced introduction text with link to documentation.
+
+## 0.2.24
+
+* * Corrected documentation of `state` for invoices, and some minor text tweaks.
+
+## 0.2.23
+
+* Improved documentation for `invoiceId`.
+
+## 0.2.22
+
+* Fix: The token returned from `GET:/recipients/tokens` is now returned
+as a proper JSON document with the field `recipientToken`
+* Extended the datamodel for errors. Error returned by the API will now
+include the required fields `type` and `title` plus the optional fields
+`detail` and `instance`. The content of the field is according to
+[RFC7807](https://tools.ietf.org/html/rfc7807)
